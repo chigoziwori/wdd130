@@ -49,6 +49,10 @@ article {
     position: relative;
 }
 
+.hero article {
+    position: relative;
+}
+
 .hero h1 {
     position: absolute;
 }
