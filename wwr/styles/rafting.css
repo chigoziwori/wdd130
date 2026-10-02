@@ -98,6 +98,34 @@ p {
     height: auto;
 }
 
+.adventures {
+    text-align: center;
+}
+
+.adventures h2 {
+    margin-bottom: 15px;
+}
+
+.gallery figure {
+    margin: 0;
+}
+
+.gallery img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.gallery figcaption {
+    padding: 5px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
 .socialmedia img {
     width: 30px;
     height: 30px;
