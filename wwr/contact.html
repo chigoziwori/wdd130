@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Web Development Project by Chigozi Goodluck Emmanwori creating a Water Rafting Website">
+    <title>Contact | White Water Rafting Inc</title>
+    <meta name="author" content="Chigozi Goodluck Emmanwori">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/crossoars.jpg" alt="White Water Rafting Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a class="current" href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h1>Contact Us</h1>
+            <p><strong>White Water Rafting</strong></p>
+            <p><strong>Address: Port Harcourt Amusement Park, Rivers State</strong></p>
+            <p><strong>Phone: 0901-751-1673</strong></p>
+            <p><strong>Email:</strong> <a
+                  href="malito:chigoziemmanwori@gmail.com">chigoziemmanwori@gmail.com</a> </p>
+        </section>
+        <section class="content-layout">
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7951.220047041262!2d7.008508024361139!3d4.8368324882262845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1791471548688!5m2!1sen!2sng"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+
+                <form>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <fieldset>
+                        <legend>Purpose of Message</legend>
+
+                        <label for="general">
+                            <input type="radio" id="general" name="purpose" value="general"
+                              required>
+                            General Inquiry
+                        </label>
+
+                        <label for="reservation">
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
+                            Reservation Question
+                        </label>
+
+                        <label for="website">
+                            <input type="radio" id="website" name="purpose" value="website">
+                            Website Suggestion
+                        </label>
+                    </fieldset>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <label for="subscribe" class="subscribe">
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        Please subscribe to the monthly newsletter to enjoy more
+                    </label>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+        </section>
+
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+
+            <figure>
+                <img src="images/park_guide.jpg" alt="Park Guide">
+                <figcaption>Chigozi Goodluck<br>Park Guide</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/coordinator.jpg" alt="Coordinator">
+                <figcaption>Chigozi Goodluck<br>Coordinator</figcaption>
+            </figure>
+
+            <figcaption>
+                <img src="images/pic.jpg" alt="Manager">
+                <figcaption>Chigozi Goodluck<br>Manager</figcaption>
+            </figcaption>
+        </section>
+    </main>
+    <footer>
+        <p>©️ 2026, White Water Rafting Inc, Chigozi Goodluck Emmanwori</p>
+        <nav class="socialmedia">
+            <a href="https://instagram.com">
+                <img src="images/instagram.jpg" alt="Instagram Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.jpg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://whatsapp.com">
+                <img src="images/whatsapp.jpg" alt="Whatsapp Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

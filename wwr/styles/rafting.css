@@ -1,6 +1,7 @@
 :root {
     --primary-color: #055a05;
     /* forest green */
+    --secondary-color: #f4a261;
     --accent1-color: #264653;
     /* dark slate blue */
     --accent2-color: #e9c46a;
@@ -175,4 +176,111 @@ footer {
 footer p {
     margin: 0;
     padding: 0;
+}
+
+/* Contact Page */
+.contact-info {
+    text-align: center;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.contact-info h1 {
+    color: var(--primary-color);
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.map iframe {
+    width: 100%;
+    height: 350px;
+    border: none;
+    border-radius: 12px;
+}
+
+.contact-form {
+    padding: 1.2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.contact-form h2 {
+    margin-bottom: 1rem;
+    color: var(--accent1-color)
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+
+input,
+textarea {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc
+}
+
+textarea {
+    min-height: 120px;
+}
+
+fieldset {
+    border: 1px solid var(--accent1-color);
+    padding: .8rem;
+    border-radius: 6px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 .5rem;
+}
+
+.subscribe {
+    margin-top: .4rem;
+    font-size: 0.9rem;
+}
+
+button {
+    margin-top: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+.employees {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.employees figure {
+    display: inline-block;
+    width: 200px;
+    margin: 1rem;
+}
+
+.employees img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.employees figcaption {
+    font-weight: bold;
+    margin-top: .5rem;
 }
