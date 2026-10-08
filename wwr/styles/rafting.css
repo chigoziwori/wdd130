@@ -270,7 +270,7 @@ button:hover {
 }
 
 .employees figure {
-    display: inline-block;
+    display: block;
     width: 200px;
     margin: 1rem;
 }
